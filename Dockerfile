@@ -9,7 +9,7 @@ RUN npm install -D @playwright/test
 
 # Install browsers and dependencies
 RUN npx playwright install-deps
-RUN npx playwright install chromium firefox webkit
+RUN npx playwright install chromium firefox webkit --with-deps
 
 # Copy application files last
 COPY . .
