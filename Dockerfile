@@ -24,4 +24,3 @@ ENV PLAYWRIGHT_BROWSERS_PATH=/ms-playwright
 
 # Start Xvfb and your application
 CMD Xvfb :99 -screen 0 1024x768x16 & npm start
-
