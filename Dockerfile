@@ -1,4 +1,4 @@
-FROM mcr.microsoft.com/playwright:v1.49.0-focal
+FROM mcr.microsoft.com/playwright:v1.49.0-noble
 
 WORKDIR /app
 
@@ -7,3 +7,4 @@ COPY . .
 
 RUN npm install
 RUN npx playwright install --with-deps
+
